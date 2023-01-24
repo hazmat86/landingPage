@@ -21,16 +21,56 @@
     border: solid red;
     border-width: 2px;
     background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+}
+
+.two .a {
+   border: dashed red;
+   border-width: 2px;
+}
+
+.two .b {
+   border: dashed red;
+   border-width: 2px;
+}
+
+.two .c {
+   border: dashed red;
+   border-width: 2px;
+}
+
+.two .d {
+   border: dashed red;
+   border-width: 2px;
 }
 
 .three {
     border: solid yellow;
     border-width: 2px;
     background-color: white;
+    color: black;
+}
+
+.three h1 {
+    border: dashed black;
+    border-width: 2px;
+    text-align: right;
+}
+
+.three p {
+    border: dashed turquoise;
+    border-width: 2px;
+    text-align: left;
 }
 
 .four {
     border: solid green;
     border-width: 2px;
     background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
